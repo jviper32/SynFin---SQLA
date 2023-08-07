@@ -3,7 +3,6 @@ import requests
 import json
 import datetime
 
-
 url = "https://api.practicebetter.io/consultant/sessions"
 yesterday = datetime.date.today() - datetime.timedelta(days=1)
 date_now = yesterday.isoformat()
@@ -14,8 +13,6 @@ headers = {
     "Content-Type": "application/json",
     "Authorization": f"bearer {pb_auth.access_token}",
 }
-
-print(headers)
 
 response = requests.request("GET", url, headers=headers, params=querystring)
 session_data = response.json()

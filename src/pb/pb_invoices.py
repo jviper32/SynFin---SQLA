@@ -1,6 +1,7 @@
 import pb_auth
 import requests
 import datetime
+import json
 
 
 url = "https://api.practicebetter.io/consultant/payments/invoices"
@@ -16,13 +17,16 @@ headers = {
 response = requests.request("GET", url, headers=headers, params=querystring)
 invoice_data = response.json()
 
+'''
+this isn't likely necessary - all I need is the json then use sqla to send it to the database
 def get_id():
     for item in invoice_data['items']:
         clientRecord = item['clientRecord']
         id = clientRecord['id']
-        return id
+        print(id)
 
 get_id()
+'''
 
-#with open("output/invoices.txt","w") as file:
-#    json.dump(invoice_data,file,indent=4)
+with open("output/invoices.txt","w") as file:
+    json.dump(invoice_data,file,indent=4)
