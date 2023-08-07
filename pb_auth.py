@@ -1,6 +1,7 @@
 import requests
 from dotenv import load_dotenv
 import os
+import ast
 
 load_dotenv()
 
@@ -16,8 +17,5 @@ token = requests.request("POST",url, data=payload, headers=headers)
 
 token_text = token.text
 
-# TODO: how can this be done without slicing? I couldn't get the json to parse
-access_token = token_text[21:-51]
-
-print(token_text)
-print(access_token)
+token_dict = ast.literal_eval(token_text)
+access_token = token_dict["access_token"]
