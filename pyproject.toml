@@ -1,0 +1,17 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Joshua Wallert", email = "jviper32@users.noreply.github.com"},
+]
+dependencies = [
+    "sqlalchemy>=2.0.19",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "psycopg2>=2.9.6",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+

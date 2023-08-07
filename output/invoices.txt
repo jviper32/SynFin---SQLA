@@ -1,0 +1,152 @@
+{
+    "count": 38,
+    "hasMore": false,
+    "items": [
+        {
+            "id": "64b8658e735c76dec2da86d7",
+            "dateCreated": "2023-07-19T22:37:02.681Z",
+            "dateModified": "2023-07-19T22:37:05.153Z",
+            "revision": 2,
+            "consultant": {
+                "isOwner": false,
+                "isPractitioner": false,
+                "dateCreated": "0001-01-01T00:00:00",
+                "id": "6287fa3f5e1bf8fc1705345e"
+            },
+            "clientRecord": {
+                "id": "64ab31835b4f7a6b588ccc8f",
+                "relatedTags": [],
+                "client": {
+                    "dateCreated": "0001-01-01T00:00:00",
+                    "profile": {},
+                    "id": "64b5a0210b67fb11c5da5ef6"
+                },
+                "profile": {
+                    "firstName": "Thomas",
+                    "lastName": "Kientzle",
+                    "preferredName": "Tom",
+                    "emailAddress": "jkientzle@fastmail.com",
+                    "secondaryContacts": [],
+                    "emergencyContacts": [],
+                    "healthcareProviders": []
+                },
+                "isChildRecord": false,
+                "isActive": false,
+                "invitationSent": false,
+                "dateCreated": "0001-01-01T00:00:00"
+            },
+            "invoiceNumber": "TKIENTZ-20230719-02",
+            "invoiceDate": "2023-07-19T22:37:02.665Z",
+            "publishStatus": "published",
+            "companyHeader": "4490 Erin Dr, Eagan, MN 55122\nP: (651) 209-9906\nF: (651) 209-9909\nE: info@officialsynapse.com",
+            "billedTo": "Thomas Kientzle\n12618 Upper Sylvan Road SW\nPillager, MN\n56473",
+            "invoiceFooter": "",
+            "description": "Thomas (Tom) Kientzle - Synapse Program - 6 Month 3 Installments  NO Labs &Supplements included Payment Plan\n$5,630.94 due with 3 installment payments, starting July 29",
+            "tax": {
+                "amount": 0,
+                "currency": "usd"
+            },
+            "discount": {
+                "amount": 0,
+                "currency": "usd"
+            },
+            "paid": false,
+            "currency": "usd",
+            "lineItems": [
+                {
+                    "id": "64b8658e735c76dec2da86d6",
+                    "description": "Installment 1 of 3",
+                    "quantity": 1.0,
+                    "discount": {
+                        "amount": 0,
+                        "currency": "usd"
+                    },
+                    "tax": {
+                        "amount": 0,
+                        "currency": "usd"
+                    },
+                    "amount": {
+                        "amount": 187698,
+                        "currency": "usd"
+                    },
+                    "subTotal": {
+                        "amount": 187698,
+                        "currency": "usd"
+                    }
+                }
+            ],
+            "subTotal": {
+                "amount": 187698,
+                "currency": "usd"
+            },
+            "subTotalBeforeDiscount": {
+                "amount": 187698,
+                "currency": "usd"
+            },
+            "total": {
+                "amount": 187698,
+                "currency": "usd"
+            },
+            "amountDue": {
+                "amount": 0,
+                "currency": "usd"
+            },
+            "amountPaid": {
+                "amount": 187698,
+                "currency": "usd"
+            },
+            "amountRefunded": {
+                "amount": 0,
+                "currency": "usd"
+            },
+            "amountWrittenOff": {
+                "amount": 0,
+                "currency": "usd"
+            },
+            "amountPaidOrWrittenOff": {
+                "amount": 187698,
+                "currency": "usd"
+            },
+            "includeSignature": false,
+            "managedBillingSettings": {
+                "billingMode": "managed",
+                "companyHeader": "Synapse Center for Health and Healing\nTax ID: 41-1899782\nGroup NPI: 1285761825"
+            },
+            "hasManagedBilling": true,
+            "paymentHistory": [
+                {
+                    "paymentType": "credit",
+                    "paymentDate": "2023-07-19T22:37:03.882Z",
+                    "notes": "Paid with credit/debit - $1,876.98",
+                    "amount": {
+                        "amount": 187698,
+                        "currency": "usd"
+                    },
+                    "amountRefunded": {
+                        "amount": 0,
+                        "currency": "usd"
+                    },
+                    "fee": {
+                        "amount": 5473,
+                        "currency": "usd"
+                    },
+                    "refunded": false,
+                    "refunds": [],
+                    "square": true,
+                    "stripe": false
+                }
+            ],
+            "writeOffHistory": [],
+            "refundable": true,
+            "paymentOptions": {
+                "enabled": true,
+                "isSubscription": false,
+                "storeBillingInformation": false,
+                "fullPaymentRequired": true
+            },
+            "paymentStatus": "paid",
+            "minimumPayment": {
+                "amount": 0,
+                "currency": "usd"
+            }
+        },
